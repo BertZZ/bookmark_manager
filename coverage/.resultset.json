@@ -1,7 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/slaimanahmadshah/Projects/bookmark_manager/spec/features/viewing_links_spec.rb": [
+      "/Users/bertz/Projects/bookmark_manager/spec/features/creating_links_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/bertz/Projects/bookmark_manager/spec/features/viewing_links_spec.rb": [
         1,
         1,
         1,
@@ -14,6 +26,6 @@
         null
       ]
     },
-    "timestamp": 1493723796
+    "timestamp": 1493733835
   }
 }
