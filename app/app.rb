@@ -10,6 +10,11 @@ class BookmarkManager < Sinatra::Base
     erb :'links/index'
   end
 
+  get '/tags' do
+    @tags = Tag.all
+    erb :'links/tags'
+  end
+
   get '/links/new' do
     erb :'links/form'
   end
