@@ -16,6 +16,17 @@
         null,
         null
       ],
+      "/Users/bertz/Projects/bookmark_manager/spec/features/multiple_tags_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/bertz/Projects/bookmark_manager/spec/features/viewing_links_spec.rb": [
         1,
         1,
@@ -43,6 +54,6 @@
         null
       ]
     },
-    "timestamp": 1493821464
+    "timestamp": 1493823669
   }
 }
