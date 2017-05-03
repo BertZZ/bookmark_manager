@@ -8,6 +8,6 @@ feature 'Add new links the front page' do
     visit '/links'
     link = Link.first
     expect(page).to have_content 'Youtube'
-    expect(link.tags.map(&:tag)).to include('Entertainment')
+    expect(link.tags.map(&:name)).to include('Entertainment')
   end
 end
