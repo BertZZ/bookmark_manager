@@ -14,6 +14,12 @@ class BookmarkManager < Sinatra::Base
     erb :'links/form'
   end
 
+  get '/tags/:name' do
+    tag = Tag.first(name: params[:name])
+    @links = tag ? tag.links : []
+    erb :'links/index'
+  end
+
   post '/links' do
     name = params[:site_name]
     url = params[:site_url]
