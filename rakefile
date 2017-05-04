@@ -1,0 +1,17 @@
+require 'data_mapper'
+require './app/app.rb'
+
+desc "Default task"
+task :default do
+  puts "This is the default rake task"
+end
+
+desc "Non Destructive Update"
+task :auto_update do
+  DataMapper.auto_upgrade!
+end
+
+desc 'Destructive update'
+task :auto_migrate do
+  DataMapper.auto_migrate!
+end
