@@ -1,7 +1,24 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/bertz/Projects/bookmark_manager/spec/features/adding_user_accounts_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        null,
+        null
+      ],
       "/Users/bertz/Projects/bookmark_manager/spec/features/creating_links_spec.rb": [
+        1,
         1,
         1,
         1,
@@ -24,10 +41,12 @@
         1,
         1,
         1,
+        1,
         null,
         null
       ],
       "/Users/bertz/Projects/bookmark_manager/spec/features/multiple_tags_spec.rb": [
+        1,
         1,
         1,
         1,
@@ -46,6 +65,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         null
@@ -56,7 +76,9 @@
         1,
         1,
         1,
+        1,
         null,
+        1,
         1,
         1,
         1,
@@ -65,6 +87,6 @@
         null
       ]
     },
-    "timestamp": 1493895369
+    "timestamp": 1493998998
   }
 }

@@ -1,5 +1,6 @@
 feature 'Viewing links' do
   scenario 'I can see existing links on the links page' do
+    create_user
     Link.create(url: 'http://www.bbc.co.uk/news', title: 'BBC News')
     visit '/links'
     expect(page.status_code).to eq 200

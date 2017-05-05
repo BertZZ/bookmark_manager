@@ -21,3 +21,10 @@ def visit_and_create_multi_tag
   fill_in :tag, with: 'entertainment, videos'
   click_button "Add link"
 end
+
+def create_user
+  visit '/new_user'
+  fill_in :email, with: "User.name@user.com"
+  fill_in :password, with: "Password"
+  click_button "Create Account"
+end

@@ -7,7 +7,7 @@ task :default do
 end
 
 desc "Non Destructive Update"
-task :auto_update do
+task :auto_upgrade do
   DataMapper.auto_upgrade!
 end
 
